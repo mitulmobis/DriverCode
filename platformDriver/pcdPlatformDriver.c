@@ -119,6 +119,7 @@ static int pltDrv_remove (struct platform_device *pdev) {
     return 0;
 }
 
+/*List of devices with can be supported by this driver*/
 struct 	platform_device_id platform_device_id [] = {
         {.name="PCDDEVAx"},
         {.name="PCDDEVBx"},
@@ -131,7 +132,7 @@ struct platform_driver pcdPlatformDriver = {
     .remove = pltDrv_remove,
     .id_table = platform_device_id,
     .driver = {
-        .name = "PcdPlatformDevice",
+        .name = "PsuedoPlatformDriver",
         .owner = THIS_MODULE
     }
 };
@@ -154,6 +155,7 @@ static int __init my_module_init(void) {
         goto unreg_chrdev;
     }
 
+    /*3. Register struct platform_driver variable with platform core*/
     ret = platform_driver_register (&pcdPlatformDriver);
     if(ret) {
         pr_err("Platform Driver not registered\n");
