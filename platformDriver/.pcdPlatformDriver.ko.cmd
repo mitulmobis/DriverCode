@@ -1,0 +1,1 @@
+cmd_/home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.ko /home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.o /home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.mod.o;  true

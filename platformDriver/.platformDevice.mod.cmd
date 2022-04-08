@@ -1,0 +1,1 @@
+cmd_/home/lenovo/WorkSpace/Code/platformDriver/platformDevice.mod := { echo  /home/lenovo/WorkSpace/Code/platformDriver/platformDevice.o;  echo; } > /home/lenovo/WorkSpace/Code/platformDriver/platformDevice.mod

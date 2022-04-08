@@ -1,0 +1,1 @@
+cmd_/home/lenovo/WorkSpace/Code/platformDriver/Module.symvers := sed 's/\.ko$$/\.o/' /home/lenovo/WorkSpace/Code/platformDriver/modules.order | scripts/mod/modpost -m -a  -o /home/lenovo/WorkSpace/Code/platformDriver/Module.symvers -e -i Module.symvers   -T -

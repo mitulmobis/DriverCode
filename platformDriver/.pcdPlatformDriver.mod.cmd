@@ -1,0 +1,1 @@
+cmd_/home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.mod := { echo  /home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.o;  echo; } > /home/lenovo/WorkSpace/Code/platformDriver/pcdPlatformDriver.mod
